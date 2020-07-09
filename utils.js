@@ -15,7 +15,7 @@ function removeChildNode(trigger,child,parent){
         child.style.transition='0.8s';
         child.style.opacity='0';
         setTimeout(()=>{
-            parent.removeChild(child); 
+            child.classList.add('is-hidden'); 
         },1000)
                     
     })
