@@ -18,10 +18,10 @@
 ## 📌 Features: 
 
 ```diff
-+ Api data
-+ 
-+ Statistics: Including the number of confirmed, recovered, and deaths, in addition to percents.
-+ Responsive Application.
++ Search as you type.
++ Comparision: Compare scores of each type and highlights the winner.
++ Clear Results.
++ Responsive.
 ```
 ***
 ## 📱 Live Preview : (https://movievsmovie.netlify.app/)
@@ -51,8 +51,3 @@
   <img width="750" src="https://res.cloudinary.com/dryiuvv1l/image/upload/v1602822242/movieVsMovie/performance_cdasma.png">
 </p>
 
-
-
-# Live Preview - https://movievsmovie.netlify.app/
-
-# An app to compare two any movies. Stack- ONLY javascript,html,bulma and some css.
