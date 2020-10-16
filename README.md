@@ -1,7 +1,9 @@
 ## 📃 Welcome to the MovieVsMovie wiki!
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/71399b45-8b29-483e-8d82-f1fc4e9adb92/deploy-status)](https://app.netlify.com/sites/movievsmovie/deploys)
-
+<a href="https://bulma.io">
+  <img src="/path/to/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+</a>
 
 ## ⚡ Technologies
 
