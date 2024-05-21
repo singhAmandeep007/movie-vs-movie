@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
     <link
       rel="stylesheet"
@@ -12,64 +15,73 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
   </head>
   <body>
-    <div class="container" style="min-height: calc(100vh - 70px);">
-
-    
-    <section class="hero  is-transparent">
-      <div class="hero-body">
-        <div class="container has-text-centered ">
-          <h1 style="color:white;" class="title" >
-            Movie<span class="has-text-warning">Vs</span>Movie
-             &nbsp;<span class="icon">
-               <i class="fas fa-film"></i>
-            </span>
-          </h1>
+    <div
+      class="container"
+      style="min-height: calc(100vh - 70px)"
+    >
+      <section class="hero is-transparent">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1
+              style="color: white"
+              class="title"
+            >
+              Movie<span class="has-text-warning">Vs</span>Movie &nbsp;<span class="icon">
+                <i class="fas fa-film"></i>
+              </span>
+            </h1>
+          </div>
         </div>
+      </section>
+
+      <div class="container is-fluid">
+        <div class="columns is-mobile">
+          <div class="column">
+            <div id="left-autocomplete"></div>
+            <div id="left-summary"></div>
+          </div>
+          <div class="column">
+            <div id="right-autocomplete"></div>
+            <div id="right-summary"></div>
+          </div>
+        </div>
+
+        <div id="tutorial">
+          <div class="column notification is-half is-warning tutorial">
+            <button class="delete"></button>
+            <h5 class="title is-4">Search for a movie on Both Sides</h5>
+            <p>We will tell you which one is best.</p>
+          </div>
+        </div>
+
+        <button class="button is-danger clear is-fullwidth is-hidden">Clear Results</button>
       </div>
-    </section>
-
-    <div class="container is-fluid  ">
-
-     <div class="columns is-mobile ">
-       <div class="column">
-         <div id="left-autocomplete"></div>
-         <div id="left-summary"></div>
-       </div>
-       <div class="column">
-         <div id="right-autocomplete"></div>
-         <div id="right-summary"></div>
-       </div>
-     </div>
- 
-<div id="tutorial">
-  <div class=" column notification is-half is-warning tutorial " >
-    <button class="delete"></button>
-    <h5 class="title is-4">Search for a movie on Both Sides</h5>
-    <p>We will tell you which one is best.</p>
-  </div>
-</div>
-   
-   
-     <button class="button is-danger clear is-fullwidth is-hidden">Clear Results</button>
-
     </div>
-  </div>
     <footer>
       <div class="content has-text-centered">
         <p>
-          <strong>MovieVsMovie</strong> by <span style="color:red">amandeep </span> 
-          <a href="https://www.linkedin.com/in/amandeep-singh-0803/" style="color:#ffdd57"> <span class="icon is-small">
-            <i class="fas fa-id-card"></i>
-          </span> Contact</a>
+          <strong>MovieVsMovie</strong> by <span style="color: red">amandeep </span>
+          <a
+            href="https://www.linkedin.com/in/singhAmandeep007/"
+            style="color: #ffdd57"
+          >
+            <span class="icon is-small">
+              <i class="fas fa-id-card"></i>
+            </span>
+            Contact</a
+          >
         </p>
       </div>
     </footer>
 
     <script src="utils.js"></script>
     <script src="autocomplete.js"></script>
-    <script src="index.js"> </script>
+    <script src="index.js"></script>
   </body>
 </html>
