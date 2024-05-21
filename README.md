@@ -23,4 +23,4 @@ An interactive and responsive site where we can search, check and compare any 2 
 + Responsive.
 ```
 
-## 📱 Live Preview : (https://movievsmovie.netlify.app/)
+## 📱 Live Preview : (https://singhamandeep007.github.io/movie-vs-movie)
